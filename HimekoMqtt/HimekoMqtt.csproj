@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Mqtt" Version="0.6.16-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tsubasa\tsubasa\tsubasa.csproj" />
+  </ItemGroup>
+
+</Project>
